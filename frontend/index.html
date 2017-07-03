@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body ng-app="chandniapp">
+
+
+
+<div ng-controller="controller1">
+<label>username:</label>
+<input type="text" ng-model="name"> this name is defined in js file
+{{lastname}}
+<br><br>
+<label>password:</label>
+<input type="password" ng-model="pass">
+
+<br><br>
+
+<button ng-click="work()">Login</button>
+
+<button>Singup</button>
+
+</div>
+
+<div ng-controller="controller2">
+div 2	
+<input type="text" placeholder="email">
+
+
+
+
+</div>
+
+
+
+<script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+</body>
+</html>

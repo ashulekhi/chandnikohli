@@ -6,12 +6,24 @@ var express = require('express')
 var server = express();
 
 
+console.log("path curretn" , __dirname);
+
+server.use(express.static(__dirname + '/frontend'))
+
 
 
 
 server.get('/' , function(req,res){
 
-res.send('Hi Chandni how are you?')
+
+
+
+
+
+
+	console.log(">>>>>>>>>>>>>> reached based route ")
+
+res.render('index.html')
 
 })
 

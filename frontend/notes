@@ -1,0 +1,74 @@
+notes
+
+server 
+
+
+
+server apke views render 
+
+
+
+us html se ya browser se aap server ko req and server apko response 
+
+
+
+login -  hum code karenge woh server pe request send username and password 
+
+
+1). server se communicate karo
+2). server pe pohnch hum server pe verify ----  kuch processing karenge 
+3) response send kardo 
+
+
+angular is based on javascript which is a framework that provides your ease
+2)single page applications
+3) two way binding --- ng-model or scope
+
+
+ng-click
+
+ng-app=""
+
+ng-controller -- btata html ka part konse controller se bind h
+
+ng -stands for angular 
+
+2+2
+
+{{   }}
+
+
+components 
+1) module
+2) directives - markers on html that is they simply extend the html code 
+3) controllers --- which controls the html part is responsible for communication between js files and html 
+4) services 
+
+
+
+scope is a blank object
+
+
+{
+	work:function(){
+	console.log(">>>>>>")
+	},
+	name:'ashu',
+	lastname:'djjsa'
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
